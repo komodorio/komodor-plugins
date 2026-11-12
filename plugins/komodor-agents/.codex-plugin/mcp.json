@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "komodor": {
+      "url": "https://agentops.komodor.com/internal/mcp"
+    }
+  }
+}

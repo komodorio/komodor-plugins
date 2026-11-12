@@ -1,0 +1,17 @@
+{
+  "name": "komodor-agents",
+  "version": "0.1.0",
+  "description": "Connects Claude Code to the Komodor agent platform MCP server",
+  "author": { "name": "Komodor", "url": "https://komodor.com" },
+  "homepage": "https://github.com/komodorio/komodor-plugins",
+  "repository": "https://github.com/komodorio/komodor-plugins",
+  "license": "Apache-2.0",
+  "userConfig": {
+    "mcp_url": {
+      "type": "string",
+      "title": "MCP server URL",
+      "description": "Your workspace MCP URL. Self-hosted: https://<your-host>/internal/mcp. Several workspaces: append ?account=<slug>.",
+      "default": "https://agentops.komodor.com/internal/mcp"
+    }
+  }
+}

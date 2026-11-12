@@ -1,0 +1,22 @@
+{
+  "name": "komodor-agents",
+  "version": "0.1.0",
+  "description": "Connects Codex to the Komodor agent platform MCP server",
+  "skills": "./skills/",
+  "mcpServers": "./.codex-plugin/mcp.json",
+  "author": {
+    "name": "Komodor",
+    "url": "https://komodor.com"
+  },
+  "license": "Apache-2.0",
+  "interface": {
+    "displayName": "Komodor agents",
+    "shortDescription": "Drive the Komodor agent platform from Codex.",
+    "developerName": "Komodor",
+    "category": "Developer Tools",
+    "websiteURL": "https://github.com/komodorio/komodor-plugins",
+    "defaultPrompt": [
+      "Improve my agent"
+    ]
+  }
+}
