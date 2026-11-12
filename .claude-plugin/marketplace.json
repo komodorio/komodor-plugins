@@ -1,0 +1,12 @@
+{
+  "name": "komodor",
+  "owner": { "name": "Komodor" },
+  "metadata": { "description": "Komodor plugins for coding agents" },
+  "plugins": [
+    {
+      "name": "komodor-agents",
+      "source": "./plugins/komodor-agents",
+      "description": "Connects your coding agent to the Komodor agent platform MCP server"
+    }
+  ]
+}
